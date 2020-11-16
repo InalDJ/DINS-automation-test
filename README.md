@@ -21,4 +21,8 @@ Here are the automation tests required by DINS company to apply for the position
  ![image](https://user-images.githubusercontent.com/65347205/99299466-4da9ad80-285c-11eb-9463-43b54f0ba872.png)
  * Click Run> Run 'TestingClass'...
  * After the tests have been executed, you can open a newly generated test report. It will be saved to this directory: target\TestReport.html
+ 
+ ![image](https://user-images.githubusercontent.com/65347205/99301195-a712dc00-285e-11eb-989c-c7c3680b35ff.png)
+ 
+ * Here is the report:
  ![image](https://user-images.githubusercontent.com/65347205/99299872-eb04e180-285c-11eb-8296-521191e72f68.png)
