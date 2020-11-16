@@ -14,9 +14,9 @@ Here are the automation tests required by DINS company to apply for the position
  ![Image](https://user-images.githubusercontent.com/65347205/99298164-57321600-285a-11eb-9a5e-c29b6f99dd11.png)
  * Then a drop-down list will appear. Click "TestNg" again.
  ![image](https://user-images.githubusercontent.com/65347205/99299143-dc69fa80-285b-11eb-8e1e-43bdef026e8a.png)
- * Then another window will appear. Set it up according to the following example. Choose a class according to your directory:
+ * Then another window will appear. Set it up according to the following example. Choose the class with the automation tests we need according to your directory - In my case it is "com.dinstest.TestingClass":
  ![image](https://user-images.githubusercontent.com/65347205/99299035-af1d4c80-285b-11eb-8072-96ed615ad1ab.png)
- * Click "Apply" and then "OK".
+ * Don't forget to add this text to "VM options": " -Dtestng.dtd.http=true". Otherwise an exception will occur during the tests. Click "Apply" and then "OK".
  * Now you can start tests. Activate your newly created configuration in the drop-down list:
  ![image](https://user-images.githubusercontent.com/65347205/99299466-4da9ad80-285c-11eb-9463-43b54f0ba872.png)
  * Click Run> Run 'TestingClass'...
