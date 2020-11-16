@@ -11,9 +11,8 @@ Here are the automation tests required by DINS company to apply for the position
  
  ## How to run tests
  * After the repository has been cloned or the code copied, in Intellij IDEA go to: Run> Edit Configurations...  Click "TestNg" and "+" button
- ![Image](https://user-images.githubusercontent.com/65347205/99298164-57321600-285a-11eb-9a5e-c29b6f99dd11.png)
+ ![image](https://user-images.githubusercontent.com/65347205/99301898-b0e90f00-285f-11eb-99f4-246e8980325f.png)
  * Then a drop-down list will appear. Click "TestNg" again.
- ![image](https://user-images.githubusercontent.com/65347205/99299143-dc69fa80-285b-11eb-8e1e-43bdef026e8a.png)
  * Then another window will appear. Set it up according to the following example. Choose the class with the automation tests we need according to your directory - In my case it is "com.dinstest.TestingClass":
  ![image](https://user-images.githubusercontent.com/65347205/99299035-af1d4c80-285b-11eb-8072-96ed615ad1ab.png)
  * Don't forget to add this text to "VM options": " -Dtestng.dtd.http=true". Otherwise an exception will occur during the tests. Click "Apply" and then "OK".
