@@ -7,6 +7,7 @@ Here are the automation tests required by DINS company to apply for the position
  * [Download](https://www.jetbrains.com/ru-ru/idea/download/#section=windows) Intellij IDEA from the official website.
  * Clone this repository to your local machine. You can use [this](https://www.youtube.com/watch?v=aBVOAnygcZw&ab_channel=IntelliJIDEAbyJetBrains) guide.
  * Or you can create a new Spring Boot Maven project on your local machine and copy the dependencies from [this](https://github.com/InalDJ/DINS-automation-test/blob/master/pom.xml) pom.xml into your pom.xml. Then, create a class "TestingClass.java" in the following directory: src\test\java\com\dinstest\TestingClass.java. Copy the code from [this](https://github.com/InalDJ/DINS-automation-test/blob/master/src/test/java/com/dinstest/TestingClass.java) page into your newly created test class.
+ * Start the "phonebook.jar" application.
  
  
  ## How to run tests
